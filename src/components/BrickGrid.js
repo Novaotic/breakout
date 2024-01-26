@@ -30,12 +30,14 @@ function BrickGrid() {
     };
 
     return (
-        <div>
-            {generateBricks(easy).map((row, rowIndex) => (
-                <div key={rowIndex} style={{ display: 'flex' }}>
-                    {row}
-                </div>
-            ))}
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '35vh' }}>
+            <div style={{ display: 'grid', gridTemplateRows: `repeat(${easy.rows}, 1fr)` }}>
+                {generateBricks(easy).map((row, rowIndex) => (
+                    <div key={rowIndex} style={{ display: 'flex', justifyContent: 'center' }}>
+                        {row}
+                    </div>
+                ))}
+            </div>
         </div>
     )
 
