@@ -1,6 +1,6 @@
 # Breakout
 
-This project is personal practice with React to create a little breakout game. Sounds like a fun challenge for a budding developer.
+This project is personal practice with React to create a little breakout game. Sounds like a fun challenge for a budding developer. I do a lot of explaining how I did stuff in this readme. Like it's a blog, which I know isn't what a readme is for, but, well it's a Break Out game there isn't much else to say about it in a readme. This entire project is a practice exercise and explaining what I'm doing helps me learn. Plus who knows maybe someone reading this wants to follow along.
 
 ### Planned Features:
 
@@ -17,6 +17,7 @@ This project is personal practice with React to create a little breakout game. S
 I'm breaking this down into phases, I'll leave notes in each one as I work through it.
 
 1. First create component structure. So this would likely be, "Game/App", "Paddle", "Ball", and "Brick" components
+    I started with what I thought would be the hardest, the bricks. It was simplier than a thought however. Just two components, one to render the brick (Brick.js) and another to create the brick grid (BrickGrid.js). Keeping them seperate should help with adding future functionality. In the BrickGrid I've added difficulty objects, for use in possibly different difficulty levels, for now it just uses 'easy'.
 
 2. Rendering and styling components
 
