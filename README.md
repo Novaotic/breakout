@@ -1,3 +1,39 @@
+# Breakout
+
+This project is personal practice with React to create a little breakout game. Sounds like a fun challenge for a budding developer.
+
+### Planned Features:
+
+- The game of course
+- A score tracker
+
+### Possible features
+
+- Multiple levels
+- Power ups
+
+### Project Plan
+
+I'm breaking this down into phases, I'll leave notes in each one as I work through it.
+
+1. First create component structure. So this would likely be, "Game/App", "Paddle", "Ball", and "Brick" components
+
+2. Rendering and styling components
+
+3. Game Logic
+
+4. Handle Events
+
+5. Polish and optimize
+
+6. Begin plans for possible addtional features
+
+
+#### I'm going to leave the React boilerplate in this readme, mostly for my own refernece.
+
+
+***
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
