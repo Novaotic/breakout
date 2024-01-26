@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Brick from './components/Brick.js'
+import BrickGrid from './components/BrickGrid.js'
 
 function App() {
   return (
     <div className="App">
       <h1>Break Out</h1>
-      <Brick color="blue" isDestroyed={false} />
+      <BrickGrid />
     </div>
   );
 }
