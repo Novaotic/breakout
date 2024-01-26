@@ -17,7 +17,6 @@ This project is personal practice with React to create a little breakout game. S
 I'm breaking this down into phases, I'll leave notes in each one as I work through it.
 
 1. First create component structure. So this would likely be, "Game/App", "Paddle", "Ball", and "Brick" components
-    I started with what I thought would be the hardest, the bricks. It was simplier than a thought however. Just two components, one to render the brick (Brick.js) and another to create the brick grid (BrickGrid.js). Keeping them seperate should help with adding future functionality. In the BrickGrid I've added difficulty objects, for use in possibly different difficulty levels, for now it just uses 'easy'.
 
     I started with what I thought would be the hardest, the bricks. It was simplier than a thought however. Just two components, one to render the brick (Brick.js) and another to create the brick grid (BrickGrid.js). Keeping them seperate should help with adding future functionality. In the BrickGrid I've added difficulty objects, for use in possibly different difficulty levels, for now it just uses 'easy'.
 
