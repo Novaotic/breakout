@@ -20,8 +20,11 @@ I'm breaking this down into phases, I'll leave notes in each one as I work throu
 
      >  I started with what I thought would be the hardest, the bricks. It was simplier than a thought however. Just two components, one to render the brick (Brick.js) and another to  create the brick grid (BrickGrid.js). Keeping them seperate should help with adding future functionality. In the BrickGrid I've added difficulty objects, for use in possibly different difficulty levels, for now it just uses 'easy'.
      >
+     >  We have a paddle! it can move left and right with arrow keys. I used the useState for the position, and useEffect for handling key presses. It works well but the animation is a little choppy, I tried to fix this with the transition css property I was reading up on. It's better than it was but there is some lag when changing directions. I'm going to mess with this more at a later time, for now it works.
 
 2. Rendering and styling components
+
+     > I've added begun importing components into App.js so that they render. I wrote test to make sure they render as well.
 
 3. Game Logic
 
